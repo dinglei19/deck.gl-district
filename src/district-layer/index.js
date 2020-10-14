@@ -36,7 +36,8 @@ const defaultProps = {
   inlineWidth: 1,
   inlineColor: defaultLineColor,
   // Shared accessors
-  getPosition: { type: 'accessor', value: (x) => x.position }
+  getPosition: { type: 'accessor', value: (x) => x.position },
+  getHeight: { type: 'accessor', value: 0 },
 };
 
 function getCoordinates(f) {
@@ -199,7 +200,7 @@ export default class DistrictLayer extends CompositeLayer {
       getPosition: (d) => [d.center[0], d.center[1], getHeight(d) * 1.005],
       getText: (d) => d.name,
       getColor: [255, 255, 255],
-      getSize: 80,
+      getSize: 40,
       billboard: false,
       opacity: 1,
       fontWeight: 'bold',

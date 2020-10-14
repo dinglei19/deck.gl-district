@@ -52,7 +52,10 @@ export default () => {
       outlineHeght: 4030,
       outlineColor: [73,253,254],
       inlineWidth: 150,
-      inlineColor: [9,104,162]
+      inlineColor: [9,104,162],
+      onClick: (data) => {
+        console.log(data)
+      }
     })
   ];
 
