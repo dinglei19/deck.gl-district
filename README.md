@@ -3,6 +3,9 @@
 ### 基于deck.gl的三维行政区划
 ![avatar](/docs/examples/screen.png)
 
+
+## [API](/docs/index.md)
+
 ## Getting Started
 
 Install dependencies,
