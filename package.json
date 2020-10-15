@@ -1,7 +1,6 @@
 {
-  "private": true,
   "name": "deck.gl-district",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",
@@ -51,5 +50,10 @@
     "lint-staged": "^10.0.7",
     "prettier": "^1.19.1",
     "yorkie": "^2.0.0"
+  },
+  "homepage": "https://github.com/dinglei19/deck.gl-district",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:dinglei19/deck.gl-district.git"
   }
 }

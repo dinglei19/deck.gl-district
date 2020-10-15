@@ -1,8 +1,6 @@
 import { Layer, project } from '@deck.gl/core';
 import { Model, Geometry } from '@luma.gl/engine';
 import { Texture2D } from '@luma.gl/webgl';
-import {ImageLoader} from '@loaders.gl/images';
-import {load} from '@loaders.gl/core';
 import GL from '@luma.gl/constants';
 import vs from './image-layer-vertext.glsl';
 import fs from './image-layer-fragment.glsl';

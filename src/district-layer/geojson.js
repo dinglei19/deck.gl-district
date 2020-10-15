@@ -173,7 +173,6 @@ function separateGeometry(geometry, separated, wrapFeature, sourceFeature, sourc
  * @return {Array|"iteratable"} - iterable list of features
  */
 export function getGeojsonFeatures(geojson) {
-  console.log(geojson)
   // If array, assume this is a list of features
   if (Array.isArray(geojson)) {
     return geojson;
