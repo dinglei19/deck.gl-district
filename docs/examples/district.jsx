@@ -49,7 +49,7 @@ export default () => {
       opacity: 0.4,
       gradient: [0.2, 0.9],
       outlineWidth: 200,
-      outlineHeght: 4030,
+      outlineHeight: 4030,
       outlineColor: [73,253,254],
       inlineWidth: 150,
       inlineColor: [9,104,162],

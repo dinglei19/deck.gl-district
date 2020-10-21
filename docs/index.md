@@ -30,7 +30,7 @@ import { DistrictLayer } from 'deck.gl-district';
 - opacity `Number` 透明度（顶部透明度）
 - gradient `Array [Number, Number]` 侧边透明度， `gradient[0]`最底部，`gradient[1]`最顶部 
 - outlineWidth `Number` 边界边框宽度
-- outlineHeght `Number` 边界边框高度
+- outlineHeight `Number` 边界边框高度
 - outlineColor `Array` 边界边框颜色 r,g,b 值范围0-255
 - inlineWidth `Number` 内区划线宽度
 - inlineColor `Number` 内区划线颜色 r,g,b 值范围0-255

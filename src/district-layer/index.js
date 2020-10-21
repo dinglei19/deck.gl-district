@@ -144,7 +144,7 @@ export default class DistrictLayer extends CompositeLayer {
       outline,
       outlineWidth,
       outlineColor,
-      outlineHeght,
+      outlineHeight,
       inline,
       inlineColor,
       inlineWidth,
@@ -185,7 +185,7 @@ export default class DistrictLayer extends CompositeLayer {
       widthUnits: 'meters',
       rounded: true,
       getPath,
-      getHeight: outlineHeght,
+      getHeight: outlineHeight,
       getColor: outlineColor,
       opacity: 1,
       getWidth: outlineWidth
